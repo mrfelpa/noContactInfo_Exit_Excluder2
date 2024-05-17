@@ -30,7 +30,8 @@ Make sure that Tor Browser is running and configured to allow connections throug
 
 Update the socket path in script to the correct path of your environment:
 
-        torsocketpath = '/home/your-user/.tor-control.socket'
+        
+        torsocketpath = '/home/-replace-me-/.tor-control.socket'
 
 Run the main script:
 
