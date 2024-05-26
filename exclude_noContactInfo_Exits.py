@@ -6,7 +6,6 @@ from stem.control import Controller
 from stem.util.tor_tools import *
 import os
 
-# Configurações
 tor_socket_path = os.getenv('TOR_SOCKET_PATH', '/home/-replace-me-/.tor-control.socket')
 
 def get_relays(controller):
